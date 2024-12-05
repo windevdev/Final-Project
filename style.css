@@ -1,1 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
 
+h1 {
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+figure:hover, figure:focus {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+}
